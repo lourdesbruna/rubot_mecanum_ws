@@ -1,12 +1,12 @@
 <?xml version='1.0'?>
 <sdf version='1.7'>
-  <model name='wood_1_2m'>
-    <pose>0.595 0 0 0 -0 0</pose>
+  <model name='wood_0_6m'>
+    <pose>0.295 0 0 0 -0 0</pose>
     <link name='Wall_0'>
       <collision name='Wall_0_Collision'>
         <geometry>
           <box>
-            <size>1.2 0.01 0.3</size>
+            <size>0.6 0.01 0.3</size>
           </box>
         </geometry>
         <pose>0 0 0.15 0 -0 0</pose>
@@ -15,7 +15,7 @@
         <pose>0 0 0.15 0 -0 0</pose>
         <geometry>
           <box>
-            <size>1.2 0.01 0.3</size>
+            <size>0.6 0.01 0.3</size>
           </box>
         </geometry>
         <material>
@@ -29,7 +29,7 @@
           <layer>0</layer>
         </meta>
       </visual>
-      <pose>0 -0 0 0 -0 0</pose>
+      <pose>-0 -0 0 0 -0 0</pose>
     </link>
     <static>1</static>
   </model>
