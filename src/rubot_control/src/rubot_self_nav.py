@@ -60,7 +60,7 @@ class GoPiGo3:
         if 0 <= angle <= 180:
             return angle
         else:
-            return angle - 360
+            return angle - 180
 
     def shutdown(self):
         self._msg.linear.x = 0
